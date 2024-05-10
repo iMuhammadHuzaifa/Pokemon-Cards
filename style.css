@@ -1,0 +1,39 @@
+.card {
+    margin-top: 10%;
+    padding: 60px 60px 60px 60px;
+}
+
+.card {
+    height: 40vh;
+    width: 15vw;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.water-mark {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    font-size: x-large;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: x-large;
+    color: #191b28;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+span {
+    color: #272c8f;
+    margin-left: 5px;
+}
